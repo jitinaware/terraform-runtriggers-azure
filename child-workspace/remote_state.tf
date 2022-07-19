@@ -2,7 +2,7 @@ data "terraform_remote_state" "srcwksp" {
   backend = "remote"
 
   config = {
-    organization = "jaware-hashicorp"
+    organization = "jaware-hc-demos"
     workspaces = {
       name = "az-srcwksp"
     }
