@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    organization = "jaware-hashicorp"
+    organization = "jaware-hc-demos"
 
     workspaces {
       name = "az-chwksp"
